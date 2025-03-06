@@ -1,19 +1,4 @@
-// vercel.json (create this file in the root directory)
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.js"
-    }
-  ]
-}
+
 
 // index.js
 const express = require("express");
